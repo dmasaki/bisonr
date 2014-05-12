@@ -1,14 +1,16 @@
 bisonr
 ======
 
-<b>R scripts for processing of biological occurrence data</b>
+<i>R scripts for processing of biological occurrence data</i>
 
-Geospatial
+<b>Geospatial</b>
 
-Date/Time
+<b>Date/Time</b>
 
-Taxonomy
+<b>Taxonomy</b>
 
-String Cleanup
+[taxonomy lookup] (taxonomy_hierarchy_matt_v3.r)
 
-Dataset Specific
+<b>String Cleanup</b>
+
+<b>Dataset Specific</b>
