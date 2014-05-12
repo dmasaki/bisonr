@@ -1,4 +1,12 @@
-library("PBSmapping")
+getPackage <- function(pkg){
+if(!require(pkg, character.only = TRUE)){
+install.packages(pkg, dependencies = TRUE)
+library(pkg, character.only = TRUE)
+}
+return(TRUE)
+}
+
+getPackage("PBSmapping")
 
 UTM_to_DD <- function(data) {
   a <- readline("What is the name of the Easting (X coordinate) column?")
